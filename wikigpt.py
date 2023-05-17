@@ -102,7 +102,7 @@ url = "https://platform.openai.com/account/api-keys"
 st.markdown("""
 Wiki GPT는 기존 챗GPT에 위키백과의 내용을 in-context/embedding 방식으로 추가 학습시킨 AI입니다.  \
 23년 4월 현재 챗GPT에 비해 훨씬 더 전문적인 질문에 대해서 답변을 할 수 있습니다. \
-랩의 예산 사정상 무료 이용기간은 종료합니다. \
+랩의 예산 사정상 무료 이용기간은 종료되었습니다. \
 직접 OpenAI의 API를 생성하여 사용하시기 바랍니다. [API Key 생성하러 가기](%s)
 """ % url)
 ################################
