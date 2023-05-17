@@ -97,12 +97,14 @@ st.markdown(""" <style> .font3 {
      font-size:20px ; font-family: 'Cooper Black'; color: #000000;} 
      </style> """, unsafe_allow_html=True)
 #st.markdown("##")
-#st.markdown('<p class="font3">Wiki GPT 소개</p>', unsafe_allow_html=True)  
+#st.markdown('<p class="font3">Wiki GPT 소개</p>', unsafe_allow_html=True) 
+url = "https://platform.openai.com/account/api-keys"
 st.markdown("""
-Wiki GPT는 기존의 챗GPT에 위키백과의 내용을 in-context/embedding 방식으로 추가 학습시킨 모델입니다.  \
-23년 5월 현재 챗GPT에 비해 훨씬 더 전문적인 질문에 대해서 답변을 할 수 있습니다. \
-사용료가 발생하기 때문에 OpenAI의 API를 생성하여 사용하시기 바랍니다.
-""")
+Wiki GPT는 기존 챗GPT에 위키백과의 내용을 in-context/embedding 방식으로 추가 학습시킨 AI입니다.  \
+23년 4월 현재 챗GPT에 비해 훨씬 더 전문적인 질문에 대해서 답변을 할 수 있습니다. \
+랩의 예산 사정상 무료 이용기간은 종료합니다. \
+직접 OpenAI의 API를 생성하여 사용하시기 바랍니다. [API Key 생성하러 가기](%s)
+""" % url)
 ################################
 #https://medium.com/@shashankvats/building-a-wikipedia-search-engine-with-langchain-and-streamlit-d63cb11181d0
 
