@@ -86,13 +86,14 @@ st.markdown(hide_st_style, unsafe_allow_html=True)
 #########################################################################
 # LOGO
 #https://pmbaumgartner.github.io/streamlitopedia/sizing-and-images.html
-image = Image.open('logo_digitalgovlab_v2.jpg')
+#image = Image.open('logo_digitalgovlab_v2.jpg')
+image = Image.open('wikigpt_v1.jpg')
 st.image(image, caption='')
 ########################
-st.markdown(""" <style> .font2 {
-     font-size:30px ; font-family: 'Cooper Black'; color: #000000;} 
-     </style> """, unsafe_allow_html=True)
-st.markdown('<p class="font2">Wiki GPT에 오신 것을 환영합니다</p>', unsafe_allow_html=True) 
+#st.markdown(""" <style> .font2 {
+#     font-size:30px ; font-family: 'Cooper Black'; color: #000000;} 
+#     </style> """, unsafe_allow_html=True)
+#st.markdown('<p class="font2">Wiki GPT에 오신 것을 환영합니다</p>', unsafe_allow_html=True) 
 st.markdown(""" <style> .font3 {
      font-size:20px ; font-family: 'Cooper Black'; color: #000000;} 
      </style> """, unsafe_allow_html=True)
